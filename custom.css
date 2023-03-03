@@ -68,6 +68,13 @@ header {
 /* Carousel styles */
 .carousel-img {
   position: relative;
+  
+    display: flex;
+/*     margin: 20vh; */
+    justify-content: center;
+    margin-top: 2rem;
+    width: 80vw;
+    height: 70vh;
 }
 
 @media only screen and (min-width: 600px) {
@@ -75,7 +82,7 @@ header {
     /* position: relative; */
 
     display: flex;
-    margin: 10vh;
+    margin: 20vh;
     justify-content: center;
     margin-top: 2rem;
     width: 80vw;
