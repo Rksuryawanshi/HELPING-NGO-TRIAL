@@ -1,0 +1,54 @@
+#navBody {
+    background-color: rgb(207, 211, 212);
+}
+
+.navBarDiv {
+    display: flex;
+    justify-content:center;
+}
+.logoP{
+    background: white;
+    font-size: 14px;
+    transition: all 0.5s;
+    z-index: 996;
+    /* margin-top: -10px; */
+    
+}
+.logo1{
+    display: flex;
+    column-gap: 10px;
+    line-height: 1;
+    height: 40px;
+    margin-left: 3rem;
+    margin-bottom: -50px;
+}
+
+.logo2 {
+    display: flex;
+    column-gap: 10px;
+    justify-content: right;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}
+
+.fa-instagram-square {
+    color: rgb(218, 69, 69);
+}
+
+.fa-twitter {
+    color: rgb(67, 120, 234);
+}
+
+.fa:hover,
+.fa-brands:hover {
+    transform: scale(1.2);
+}
+
+.carousel-img {
+    display: flex;
+    margin: 20vh;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 80vw;
+    height: 70vh;
+}
