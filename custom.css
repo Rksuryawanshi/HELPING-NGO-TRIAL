@@ -6,7 +6,6 @@
 }
 
 #navBody h3 {
-  color: rgb(0, 0, 0);
   margin: 0;
   font-size: 1.5rem;
   font-weight: 500;
@@ -39,20 +38,12 @@ header {
   margin-right: 5px;
 }
 
-/* .logo2 a {
+.logo2 a {
   color: #0d6efd;
   margin-right: 10px;
-} */
-.logo2 {
-  display: flex;
-  column-gap: 10px;
-  justify-content: right;
-  margin-right: 3rem;
-  font-size: 1.2rem;
 }
-
 .fa-instagram-square {
-  color: rgb(239, 60, 60);
+  color: rgb(218, 69, 69);
 }
 
 .fa-twitter {
@@ -61,7 +52,11 @@ header {
 
 .fa:hover,
 .fa-brands:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
+}
+
+.logo2 a:hover {
+  text-decoration: none;
 }
 
 /* Carousel styles */
