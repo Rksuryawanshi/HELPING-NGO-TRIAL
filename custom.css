@@ -1,5 +1,7 @@
 body {
-  background: linear-gradient(to top, #28b4884b, #fff);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, #eeeeee, #fff);
 }
 
 /* Navigation bar styles */
@@ -73,11 +75,11 @@ header {
     /* position: relative; */
 
     display: flex;
-    margin: 20vh;
+    margin: 10vh;
     justify-content: center;
     margin-top: 2rem;
     width: 80vw;
-    height: 40vh;
+    height: 70vh;
   }
 }
 .carousel-item img {
