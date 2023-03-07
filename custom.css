@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -79,6 +78,7 @@ header {
   position: relative;
 }
 
+
 .carousel-control-prev,
 .carousel-control-next {
   top: 50%;
@@ -112,4 +112,38 @@ header {
 .carousel-item img {
   height: 500px;
   object-fit: cover;
+}
+
+.modal-header {
+  background-color: #276ae6;
+  color: white;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+}
+
+/* Hide file input label */
+.custom-file-label::after {
+  content: "Browse";
+}
+
+/* Disable submit button until form is valid */
+button[type="submit"][disabled] {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }
