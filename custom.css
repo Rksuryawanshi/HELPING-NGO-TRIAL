@@ -12,7 +12,12 @@ body {
   border-bottom: 1px solid #dee2e6;
   box-shadow: 0 4px 20px -2px#e5e4e4;
 }
-
+@media (max-width: 425px) {
+  #navBody {
+    background: none;
+    background-color: grey;
+  }
+}
 #navBody h3 {
   /* margin: 0; */
   font-family: serif;
